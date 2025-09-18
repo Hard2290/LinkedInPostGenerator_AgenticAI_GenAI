@@ -1,9 +1,9 @@
-# **LinkedIn Post Generator - AI Workflow & Automation - MakeAI**
+# **LinkedIn Post Generator - AI Workflow & Automation - Make.com**
 ## **Project Overview :**
 - Built an AI agents workflow to generate quality text and image content and post it on LinkedIn platform.
 
 ## **Tools Used :**
-- **MakeAI** - to visualise and create AI agents workflow. 
+- **Make.com** - to visualise and create AI agents workflow. 
 - **Google Sheets** - to store generated contents and coordinate with AI agents.
 - **Google Drive** - to store and extract generated content.
 - **OpenAI** - LLM driving the AI workflow
@@ -21,7 +21,7 @@
 
 
 - Create an empty google drive folder to give its access to AI agents for to store the generated images.
-- Start creating *Agentic Workflow Layout* on **Make AI** platform by creating a *Google Sheets Module* and connecting it to the google sheet using our *Spreadsheet ID* to give AI its access.
+- Start creating *Agentic Workflow Layout* on **Make.com** platform by creating a *Google Sheets Module* and connecting it to the google sheet using our *Spreadsheet ID* to give AI its access.
 - Using keys *Prepare Content* and *Post Content* in control column, set *Router Module* parameters to drive the workflow first towards content research and creation and then towards posting those generated content on *LinkedIn*.
 - Create *OpenAI Modules* using **OPENAI_API_KEY** to allow agents to use LLM to do research, generate content, generate image prompt aligning with the content objectives and finally generate image using that prompt.
 - Use *ClaudeAI* to generate **System Prompts** and **User Prompts** for *OpenAI Modules* tailored to our personalised content needs given to claude preferrably in detailed *Markdown Prompting Style*. 
